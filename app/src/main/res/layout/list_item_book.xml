@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="1dp"
+    android:background="@drawable/bg_white_underline_black"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+    <TextView
+        android:id="@+id/authorTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor" />
+    //android:padding="16dp"
+
+
+    <EditText
+        android:id="@+id/authorEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cuanto haz leido del libro?" />
+
+    <SeekBar
+        android:layout_margin="8dp"
+        android:id="@+id/userSb"
+        android:max="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/userTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="16dp"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bookBtn"
+        android:text="GUARDAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
